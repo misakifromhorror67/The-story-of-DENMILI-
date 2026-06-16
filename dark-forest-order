@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Орден Тёмного Леса</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#111;
+    color:white;
+}
+
+.hero{
+    height:70vh;
+    background:url("images/1000001659.jpg") center center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    position:relative;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.45);
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:24px;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.card{
+    background:#1d1d1d;
+    border-radius:15px;
+    padding:25px;
+    margin-bottom:25px;
+}
+
+.card h2{
+    color:#7cf59c;
+    margin-bottom:15px;
+}
+
+.characters{
+    display:grid;
+    gap:15px;
+}
+
+.character{
+    background:#2a2a2a;
+    padding:15px;
+    border-radius:10px;
+}
+
+.character:hover{
+    background:#343434;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+    border-top:1px solid #222;
+}
+
+</style>
+</head>
+<body>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>🌲 DENMILI</h1>
+        <p>Орден Тёмного Леса</p>
+    </div>
+</section>
+
+<div class="container">
+
+<div class="card">
+<h2>📖 О проекте</h2>
+<p>
+Добро пожаловать в официальную летопись Ордена Тёмного Леса.
+Здесь собраны персонажи, приключения, легенды и хроники нашего клана на сервере Денмили.
+</p>
+</div>
+
+<div class="card">
+<h2>👥 Герои Ордена</h2>
+
+<div class="characters">
+
+<div class="character">
+⭐ <b>Misaki</b> — главная строительница, организатор торговли и создательница легендарного казино под храмом.
+</div>
+
+<div class="character">
+⚖ <b>Priest11</b> — судья Денмили, защитник ордена и мастер строительства.
+</div>
+
+<div class="character">
+✨ <b>Paris heart</b> — древняя хранительница света, способная исцелять прикосновением.
+</div>
+
+<div class="character">
+📿 <b>raings</b> — монах и настоятель великого храма Ордена Тёмного Леса.
+</div>
+
+<div class="character">
+🐮 <b>tenesiskaa</b> — хозяйка ферм, заводчица животных и исследовательница мира.
+</div>
+
+<div class="character">
+🎪 <b>Гавченко</b> — тролль, владелец цирка и создатель легендарной Свиньи Транспорта.
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+<h2>📚 Хроники</h2>
+
+<ul>
+<li>Глава I — Основание Ордена Тёмного Леса</li>
+<li>Глава II — Новые жители</li>
+<li>Глава III — Медный данж и Великая Охота за Булавой</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>🏰 Главные постройки</h2>
+
+<ul>
+<li>Великий храм</li>
+<li>Казино под храмом</li>
+<li>Цирк Гавченко</li>
+<li>Фермы Misaki</li>
+<li>Зверинцы tenesiskaa</li>
+<li>Торговая площадь</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>🌟 Статус</h2>
+
+<p>
+Орден Тёмного Леса продолжает развиваться на сервере Денмили.
+Новые приключения, главы и персонажи будут добавляться в летопись по мере развития истории.
+</p>
+
+</div>
+
+</div>
+
+<footer>
+🌲 Dark Forest Order • Denmili Chronicles
+</footer>
+
+</body>
+</html>
